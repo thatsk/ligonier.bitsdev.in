@@ -9,7 +9,7 @@ wordpress_sites:
         redirects:
           - www.ligonier.benchmarkitsolutions.in
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo:  # replace with your Git repo URL
+    repo: git@github.com:thatsk/ligonier.bitsdev.in.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
